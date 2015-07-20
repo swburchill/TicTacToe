@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="MenuPlay">Play</string>
+    <string name="MenuSettings">Settings</string>
+    <string name="MenuExit">Exit</string>
+    <string name="menuAbout">About</string>
+    <string name="defaultsettings">Default: Blocking AI</string>
+    <string name="Tic">Tic</string>
+    <string name="Tac">Tac</string>
+    <string name="Toe">Toe</string>
+    <string name="winner">Round Winner is:</string>
+    <string name="history">Match History</string>
+    <string name="p1wins">Player 1 wins:</string>
+    <string name="p2wins">Player 2 wins:</string>
+    <string name="resultsReplay">Replay</string>
+    <string name="resultsMenu">To Menu</string>
+    
+    
+    <string name="about">TicTacToe</string>
+    <string name="about2">You can play against another person or against 4 different AI difficulties. A simple AI that makes random choices, an AI who only tries to block you or against a Smart AI which looks for winning moves. There is also an impossible AI which you can never beat. You also have the option to enable AI hints which will autoplay to the best position for you. Changing any settings will reset your win history.</string>
+    <string name="createdby">Application Created By:</string>
+    <string name="developers">Irina Z., Liam C., Yunus CE. and Stephen B.</string><string name="turn">It\'s your turn.</string><string name="click">Click an empty square!</string>
+    
+    
+    <string name="NA">No Value</string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="BoardTurn">Turn Numer</string>
+    <string name="P1Options">Player 1 AI Hints</string>
+    <string name="OptionOn">On</string>
+    <string name="OptionOff">Off</string>
+    <string name="P2Options">Player 2 Options</string>
+    <string name="AI">AI</string>
+    <string name="Human">Human</string>
+    <string name="Hints">AI Hints</string>
+    <string name="AISkill">AI Skill</string>
+    <string name="Random">Random</string>
+    <string name="Blocking">Blocking</string>
+    <string name="Smart">Smart</string>
+    <string name="nul"/>
+    <string name="Impossible">Impossible</string>
+
+</resources>

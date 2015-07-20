@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SettingsScreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0000ff" >
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2IsAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="160dp"
+        android:text="@string/AI" 
+        android:textColor="#00FFFF">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2IsHuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="160dp"
+        android:text="@string/Human" 
+        android:textColor="#00FFFF">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2HintOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="230dp"
+        android:text="@string/OptionOn" 
+        android:textColor="#000000">
+    </RadioButton>
+
+    <TextView
+        android:id="@+id/SettingsTextP2Hints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="210dp"
+        android:text="@string/Hints"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#FF0000">
+    </TextView>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2AIRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="230dp"
+        android:text="@string/Random" 
+        android:textColor="#000000">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2AIBlocking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="270dp"
+        android:text="@string/Blocking" 
+        android:textColor="#000000">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2AISmart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="310dp"
+        android:text="@string/Smart" 
+        android:textColor="#000000">
+    </RadioButton>
+
+    <TextView
+        android:id="@+id/SettingsTextAISkill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="210dp"
+        android:text="@string/AISkill"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#FF0000">
+    </TextView>
+
+    <Button
+        android:id="@+id/SettingsButtonMenu"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:layout_x="200dp"
+        android:layout_y="335dp"
+        android:background="@drawable/custom_yellow_button"
+        android:clickable="true"
+        android:text="@string/resultsMenu" >
+
+    </Button>
+
+    <TextView
+        android:id="@+id/SettingsTextP2Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="125dp"
+        android:textSize="30dp"
+        android:text="@string/P2Options"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFF00" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/SettingsTextP1Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_x="45dp"
+        android:layout_y="25dp"
+        android:text="@string/P1Options"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FF00" >
+    </TextView>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP1HintOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_x="60dp"
+        android:layout_y="60dp"
+        android:text="@string/OptionOn" 
+        android:textColor="#000000">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP1HintOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="60dp"
+        android:text="@string/OptionOff" 
+        android:textColor="#000000">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2HintOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="270dp"
+        android:text="@string/OptionOff"
+        android:textColor="#000000" >
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/SettingsButtonP2AIImpossible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="350dp"
+        android:text="@string/Impossible" 
+        android:textColor="#000000">
+    </RadioButton>
+    
+</AbsoluteLayout>

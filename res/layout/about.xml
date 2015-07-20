@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AboutScreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <TextView
+        android:id="@+id/AboutTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="15dp"
+        android:text="@string/about"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:id="@+id/AboutTextDiscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="45dp"
+        android:text="@string/about2"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="#FFFF00"/>
+
+    <TextView
+        android:id="@+id/AboutTextAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="210dp"
+        android:text="@string/createdby"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:id="@+id/AboutTextNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="240dp"
+        android:text="@string/developers"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#00FF00"/>
+
+    <Button
+        android:id="@+id/AboutButtonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="320dp"
+        android:background="@drawable/custom_yellow_button"
+        android:clickable="true"
+        android:text="@string/resultsMenu" />
+
+</AbsoluteLayout>
